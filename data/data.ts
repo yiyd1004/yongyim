@@ -158,7 +158,7 @@ export const projectsData = [
         demos: [
             {
                 description: "View live demo",
-                url: "https://nextjs-promptopia.onrender.com/",
+                url: "https://promptopia-yongyim.vercel.app/",
             },
         ],
     },
