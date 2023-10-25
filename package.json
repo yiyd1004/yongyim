@@ -9,7 +9,6 @@
         "lint": "next lint"
     },
     "dependencies": {
-        "@cloudflare/next-on-pages": "1.6.3",
         "@react-email/components": "^0.0.7",
         "@react-email/tailwind": "^0.0.9",
         "@types/node": "20.8.7",
@@ -33,6 +32,7 @@
         "typewriter-effect": "^2.20.1"
     },
     "devDependencies": {
+        "@cloudflare/next-on-pages": "https://prerelease-registry.devprod.cloudflare.dev/next-on-pages/runs/6632854083/npm-package-next-on-pages-517",
         "@types/react-vertical-timeline-component": "^3.3.4"
     }
 }
