@@ -9,6 +9,7 @@
         "lint": "next lint"
     },
     "dependencies": {
+        "@cloudflare/next-on-pages": "1.7.1",
         "@react-email/components": "^0.0.7",
         "@react-email/tailwind": "^0.0.9",
         "@types/node": "20.8.7",
@@ -32,7 +33,6 @@
         "typewriter-effect": "^2.20.1"
     },
     "devDependencies": {
-        "@cloudflare/next-on-pages": "1.7.1",
         "@types/react-vertical-timeline-component": "^3.3.4"
     }
 }
