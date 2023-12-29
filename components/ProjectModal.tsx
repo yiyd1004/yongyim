@@ -69,7 +69,6 @@ const ProjectModal = ({
                         outline-none focus:scale-[1.15] hover:scale-[1.15]
                         hover:text-gray-950 active:scale-[1.15] transition cursor-pointer
                         dark:text-white/60"
-                        placeholder="view code"
                     >
                         <div className="flex items-center justify-center p-4 bg-white borderBlack rounded-full dark:bg-white/10">
                             <GoBrowser className="w-8 h-auto" />
@@ -89,7 +88,6 @@ const ProjectModal = ({
                         outline-none focus:scale-[1.15] hover:scale-[1.15]
                         hover:text-gray-950 active:scale-[1.15] transition cursor-pointer
                         dark:text-white/60"
-                        placeholder="view live demo"
                     >
                         <div className="flex items-center justify-center p-4 bg-white borderBlack rounded-full dark:bg-white/10">
                             <FaGithubSquare className="w-8 h-auto" />
