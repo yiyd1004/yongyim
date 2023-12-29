@@ -1,9 +1,10 @@
 "use client";
 
 import SectionHeading from "@/components/SectionHeading";
-import { tempEmailForm } from "@/email/ContactFormEmail";
+import ContactFormEmail from "@/email/ContactFormEmail";
 import { useSectionInView } from "@/libs/hooks";
 import { validateString } from "@/libs/utils";
+import { renderAsync } from "@react-email/render";
 import { motion } from "framer-motion";
 import { FormEvent, useState } from "react";
 import toast from "react-hot-toast";
@@ -29,13 +30,10 @@ const Contact = () => {
         }
 
         setSending(true);
-        // not working right now
-        // const htmlMsg = render(
-        //     <ContactFormEmail sender={email} message={message} />,
-        //     { pretty: true }
-        // );
-
-        const htmlMsg = tempEmailForm(email, message);
+        const htmlMsg = await renderAsync(
+            <ContactFormEmail sender={email} msg={message} />,
+            { pretty: true }
+        );
 
         const response = await fetch("/api/sendemail/", {
             method: "POST",
