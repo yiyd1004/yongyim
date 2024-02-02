@@ -218,6 +218,20 @@ export const projectsData = [
             },
         ],
     },
+    {
+        title: "Naver Today's Webtoon",
+        description:
+            "This app shows the list of Today's Webtoon, episodes, and allows you to read the episode. List of webtoons are fetched from Naver Webtoon. Webtoon episodes are in Korean.",
+        tags: ["Flutter"],
+        imageUrl: "/assets/projects/naver_webtoon_main.png",
+        gits: [
+            {
+                description: "View code",
+                url: "https://github.com/yiyd1004/flutter_naver_webtoon",
+            },
+        ],
+        demos: [],
+    },
 ] as const;
 
 export const skillsData = [
@@ -240,4 +254,5 @@ export const skillsData = [
     { name: "Langchain", icon: "/assets/skills/langchain.png" },
     { name: "ChromaDB", icon: "/assets/skills/chroma.svg" },
     { name: "Framer Motion", icon: "/assets/skills/framer-motion.svg" },
+    { name: "Flutter", icon: "/assets/skills/flutter.svg" },
 ] as const;

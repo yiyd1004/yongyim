@@ -10,8 +10,8 @@
     },
     "dependencies": {
         "@cloudflare/next-on-pages": "^1.8.2",
-        "@react-email/components": "0.0.14-canary.0",
-        "@react-email/render": "0.0.11-canary.0",
+        "@react-email/components": "0.0.14",
+        "@react-email/render": "0.0.12",
         "@react-email/tailwind": "^0.0.13",
         "@types/node": "20.10.5",
         "@types/react": "18.2.46",

@@ -35,6 +35,7 @@ const ProjectModal = ({
             >
                 <AiOutlineCloseCircle className="w-6 h-6" />
             </div>
+            {/* <div className="w-full h-[18.85rem] mb-6"> */}
             <Image
                 src={imageUrl}
                 width={600}
@@ -42,9 +43,10 @@ const ProjectModal = ({
                 quality={95}
                 loading="eager"
                 alt="project image"
-                className="w-full h-auto rounded-lg mb-6"
-                style={{ objectFit: "cover" }}
+                className="w-full h-[18.85rem] object-top rounded-lg mb-6"
+                style={{ objectFit: "none" }}
             />
+            {/* </div> */}
             <h3 className="text-2xl font-semibold mb-6">{title}</h3>
             <p className="mb-3 leading-relaxed text-gray-700 dark:text-white/70">
                 {description}
