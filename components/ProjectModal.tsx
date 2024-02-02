@@ -44,7 +44,7 @@ const ProjectModal = ({
                     loading="eager"
                     alt="project image"
                     className="w-full h-full object-top rounded-lg"
-                    style={{ objectFit: "none" }}
+                    style={{ objectFit: "cover" }}
                 />
             </div>
             <h3 className="text-2xl font-semibold mb-6">{title}</h3>
