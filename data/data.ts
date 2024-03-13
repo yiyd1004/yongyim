@@ -136,6 +136,32 @@ export const experiencesData = [
 
 export const projectsData = [
     {
+        title: "Real-time Webcam Object / Face Detection with MediaPipe",
+        description:
+            "AI powered object detection web application built with Next.js, Three.js, and MediaPipe ML solutions.",
+        tags: [
+            "React",
+            "Next.js",
+            "Three.js",
+            "Tailwind",
+            "TypeScript",
+            "MediaPipe",
+        ],
+        imageUrl: "/assets/projects/face-mesh.png",
+        gits: [
+            {
+                description: "View code",
+                url: "https://github.com/yiyd1004/nextjs_face_object_detection",
+            },
+        ],
+        demos: [
+            {
+                description: "View live demo",
+                url: "https://yiyd1004.github.io/nextjs_face_object_detection/",
+            },
+        ],
+    },
+    {
         title: "Propmptopia",
         description:
             "Promptopia is a site where you can share AI prompts. This project is created to study font-end development using NextJS, Next-Auth, Tailwindcss, Prisma (MongoDB), and TypeScript.",
