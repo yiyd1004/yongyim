@@ -67,8 +67,8 @@ const Contact = () => {
             <SectionHeading>Contact me</SectionHeading>
             <p className="text-gray-700 -mt-6 dark:text-white/80">
                 Please contact me directly at{" "}
-                <a className="underline" href="mailto:yiyd1004@gmail.com">
-                    yiyd1004@gmail.com
+                <a className="underline" href="mailto:ydyim0524@gmail.com">
+                    ydyim0524@gmail.com
                 </a>{" "}
                 or through this form
             </p>
