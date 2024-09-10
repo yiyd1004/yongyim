@@ -36,32 +36,20 @@ export const links = [
         hash: "#skills",
     },
     {
+        name: "Education",
+        hash: "#education",
+    },
+    {
+        name: "Certificate",
+        hash: "#certificate",
+    },
+    {
         name: "Contact",
         hash: "#contact",
     },
 ] as const;
 
 export const experiencesData = [
-    {
-        title: "Meta Front-End Developer Professional Certificate",
-        title2: "",
-        company: "",
-        location: "Coursera.org",
-        description:
-            "I completed my certificate program in August 2023. During the program, I created a responsive website using HTML to structure content, CSS to handle visual style, and JavaScript to develop interactive experiences. I also learned to use React in relation to JavaScript libraries and frameworks, the Bootstrap CSS Framework to create webpages, and how to work with GitHub repositories and version control.",
-        icon: React.createElement(PiCertificate),
-        skills: [
-            "HTML",
-            "JavaScript",
-            "CSS",
-            "React",
-            "Bootstrap",
-            "Figma",
-            "Git",
-            "UX/UI",
-        ],
-        date: "Aug, 2023",
-    },
     {
         title: "Co-Founder, Software Developer",
         title2: "",
@@ -121,6 +109,82 @@ export const experiencesData = [
         ],
         date: "Apr, 2011 - Sept, 2014",
     },
+] as const;
+
+export const certificateData = [
+    {
+        title: "Meta Android Developer Certificate",
+        title2: "",
+        company: "Meta",
+        location: "www.coursera.org",
+        description:
+            "I completed my certificate program in September 2024. During the program, I gained the skills required for an entry-level career as an Android developer. I learned to code in Kotlin, along with the programming fundamentals for creating user interfaces (UI) and following best design practices. I also learned how to develop Android applications, including building and managing the lifecycle of a mobile app using Android Studio. Additionally, I gained experience in creating cross-platform mobile applications using React Native.",
+        icon: React.createElement(PiCertificate),
+        skills: [
+            "Android",
+            "Android Studio",
+            "Kotlin",
+            "Jetpack Compose",
+            "React",
+            "Git",
+            "UX/UI",
+            "Algorithms",
+            "Computer Programming",
+            "Software Engineering",
+            "Mobile Development",
+            "Programming Principles",
+        ],
+        url: "https://coursera.org/share/b8ac0b342db799db83ff2826e4efa4e2",
+        date: "Sept, 2024",
+    },
+    {
+        title: "Kotlin for Java Developers",
+        title2: "",
+        company: "JetBrains",
+        location: "www.coursera.org",
+        description:
+            "I completed my certificate program in August 2024. During the program, I have learned basic syntax, nullability, functional programming with Kotlin, object-oriented programming with Kotlin, the power of the Kotlin standard library, and Java interoperability",
+        icon: React.createElement(PiCertificate),
+        skills: [
+            "Kotlin",
+            "Computer Programming",
+            "Programming Principles",
+            "Algorithms",
+            "Data Structures",
+            "Problem Solving",
+            "Mathematics",
+            "Software Engineering",
+        ],
+        url: "https://coursera.org/share/a813dd909d94112394e463a998504cfa",
+        date: "Aug, 2024",
+    },
+    {
+        title: "Meta Front-End Developer Professional Certificate",
+        title2: "",
+        company: "Meta",
+        location: "www.coursera.org",
+        description:
+            "I completed my certificate program in August 2023. During the program, I learned front-end web development, including HTML, CSS, JavaScript, React, and version control with Git. By completing the certificate, I gained hands-on experience in creating responsive websites, building interactive web applications, and applying UI/UX design principles",
+        icon: React.createElement(PiCertificate),
+        skills: [
+            "HTML and CSS",
+            "JavaScript",
+            "React",
+            "Bootstrap",
+            "Figma",
+            "Git",
+            "UX/UI",
+            "Web Development",
+            "Algorithms",
+            "Computer Programming",
+            "Software Engineering",
+        ],
+        url: "https://coursera.org/share/140c409bdd76aa5fd0c4212ef19b47ac",
+        date: "Aug, 2023",
+    },
+] as const;
+
+export const educationData = [
     {
         title: "Bachelor of Science",
         title2: "Computing and Software System",
@@ -130,6 +194,7 @@ export const experiencesData = [
             "I graduated from the University of Washington Tacoma with a major in Computing and Software Systems (BS degree) in March 2011.",
         icon: React.createElement(LuGraduationCap),
         skills: [],
+        url: "",
         date: "Mar, 2011",
     },
 ] as const;
@@ -281,4 +346,5 @@ export const skillsData = [
     { name: "ChromaDB", icon: "/assets/skills/chroma.svg" },
     { name: "Framer Motion", icon: "/assets/skills/framer-motion.svg" },
     { name: "Flutter", icon: "/assets/skills/flutter.svg" },
+    { name: "Kotlin", icon: "/assets/skills/kotlin.svg" },
 ] as const;

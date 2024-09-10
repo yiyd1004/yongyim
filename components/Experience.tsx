@@ -21,7 +21,7 @@ const Experience = () => {
             id="experience"
             className="mb-28 scroll-mt-28 sm:mb-40"
         >
-            <SectionHeading>My experiences</SectionHeading>
+            <SectionHeading>My Experiences</SectionHeading>
             <VerticalTimeline lineColor="" animate={true}>
                 {experiencesData.map((experience, index) => (
                     <Fragment key={index}>

@@ -7,7 +7,6 @@ import Image from "next/image";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 import { HiDownload } from "react-icons/hi";
-import { PiCertificate } from "react-icons/pi";
 import Typewriter from "typewriter-effect";
 
 const About = () => {
@@ -19,7 +18,7 @@ const About = () => {
             id="about"
             className="relative w-full max-w-6xl flex flex-col items-center justify-between px-7 py-20 z-[1]
                             max-[960px]:py-16 max-[960px]:px-4
-                            max-sm:py-8 max-sm:px-4 scroll-mt-[100rem]"
+                            max-sm:py-24 max-sm:px-4 scroll-mt-[100rem]"
         >
             <div className="w-full flex items-center justify-between max-[960px]:flex-col">
                 <motion.h1
@@ -97,7 +96,7 @@ const About = () => {
                         >
                             <FaGithubSquare />
                         </a>
-                        <a
+                        {/* <a
                             href={bio.certificates[0].url}
                             target="_blank"
                             className="group flex items-center justify-center text-center bg-white px-7 py-3 gap-2
@@ -107,7 +106,7 @@ const About = () => {
                         >
                             <PiCertificate className="w-6 h-auto" />
                             {bio.certificates[0].name + " "}
-                        </a>
+                        </a> */}
                     </motion.div>
                 </motion.h1>
                 <div

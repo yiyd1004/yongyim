@@ -12,10 +12,10 @@ const Header = () => {
     return (
         <header className="relative z-[999]">
             <motion.div
-                className="fixed top-0 left-1/2 h-[7rem] w-full rounded-none
+                className="fixed top-0 left-1/2 h-[10rem] w-full rounded-none
                             border border-white border-opacity-40 bg-white bg-opacity-80
                             shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem]
-                            sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full
+                            md:top-6 md:h-[3.25rem] md:w-[46rem] md:rounded-full
                             dark:bg-gray-950 dark:border-black/40 dark:opacity-75"
                 initial={{ x: "-50%", y: -100, opacity: 0 }}
                 animate={{ x: "-50%", y: 0, opacity: 1 }}
@@ -23,17 +23,17 @@ const Header = () => {
 
             <nav
                 className="flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2
-                            py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0"
+                            py-2 md:top-[1.7rem] md:h-[initial] md:py-0"
             >
                 <ul
-                    className="flex w-[22rem] flex-wrap items-center justify-center gap-y-5 sm:gap-y-1
-                                text-[1.2rem] sm:text-[0.9rem] font-medium text-gray-500
-                                sm:w-[initial] sm:flex-nowrap gap-5"
+                    className="flex w-[22rem] flex-wrap items-center justify-center gap-y-5 md:gap-y-1
+                                text-[1.2rem] md:text-[0.9rem] font-medium text-gray-500
+                                md:w-[initial] md:flex-nowrap gap-5"
                 >
                     {links.map((link) => (
                         <motion.li
                             key={link.hash}
-                            className="list-none h-full sm:h-3/4 flex items-center justify-center relative"
+                            className="list-none h-full md:h-3/4 flex items-center justify-center relative"
                             initial={{ y: -100, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
                         >

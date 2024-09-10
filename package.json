@@ -10,10 +10,10 @@
     },
     "dependencies": {
         "@cloudflare/next-on-pages": "^1.11.3",
-        "@react-email/components": "0.0.19",
-        "@react-email/render": "0.0.15",
-        "@react-email/tailwind": "^0.0.18",
-        "@types/node": "20.14.2",
+        "@react-email/components": "0.0.22",
+        "@react-email/render": "0.0.17",
+        "@react-email/tailwind": "0.0.19",
+        "@types/node": "22.1.0",
         "@types/react": "18.3.3",
         "@types/react-dom": "18.3.0",
         "autoprefixer": "10.4.19",
@@ -33,7 +33,7 @@
     },
     "devDependencies": {
         "@types/react-vertical-timeline-component": "^3.3.6",
-        "eslint": "^8.57.0",
+        "eslint": "8.57.0",
         "eslint-config-next": "^14.2.4",
         "eslint-config-prettier": "^9.1.0"
     }
