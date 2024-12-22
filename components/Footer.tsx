@@ -6,7 +6,7 @@ const Footer = () => {
             </small>
             <p className="text-xs">
                 <span className="font-semibold">About this website:</span> built
-                with Next.js 14.2.4, TypeScript, Tailwind CSS, Framer Motion,
+                with Next.js 15.1.2, TypeScript, Tailwind CSS, Framer Motion,
                 React Email & Resend.
             </p>
         </footer>
