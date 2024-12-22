@@ -113,12 +113,30 @@ export const experiencesData = [
 
 export const certificateData = [
     {
-        title: "Foundations of Data Structures and Algorithms Specialization",
+        title: "Amazon Junior Software Developer",
         title2: "",
-        company: "University of Colorado Boulder",
+        company: "Amazon",
         location: "www.coursera.org",
         description:
-            "I completed my certificate program in November 2024. During the program, I gained a deep understanding of how data is organized in a computer and how to efficiently perform operations such as sorting, searching, and indexing, which are essential for building fast and high-performing data science applications. This course provided a strong foundation in data structures and algorithms, focusing on their application in processing large datasets. Designed for those with basic Python programming knowledge, it equipped me with the skills to design efficient solutions for handling and analyzing large-scale data, even without prior expertise in data science.",
+            "I completed my certificate program in December 2024. During the program, I gained hands-on experience in software development by completing real-world projects, including designing a desktop application with integrated data handling and front-end GUI features. I developed a capstone project to solve a fictional software development challenge, showcasing my ability to apply software development principles, manage data, and create user-friendly interfaces. These practical experiences helped me build a robust portfolio, demonstrating my technical proficiency and problem-solving skills, while preparing me for a Junior Software Developer role.",
+        icon: React.createElement(PiCertificate),
+        skills: [
+            "Software Development",
+            "Java Programming",
+            "Generative AI",
+            "SQL Database Management",
+            "Full-Stack Web Development",
+        ],
+        url: "https://coursera.org/share/ee6943a676a7cec5a0d53eb09860da22",
+        date: "Dec, 2024",
+    },
+    {
+        title: "Rust Programming Specialization",
+        title2: "",
+        company: "Duke University",
+        location: "www.coursera.org",
+        description:
+            "I completed my certificate program in December 2024. During the program, I gained applied skills in Rust programming, with a focus on its speed, safety, and versatility for robust systems programming. I mastered Rust¡¯s foundational syntax through to advanced machine learning integrations, completing hands-on lessons and over 20 coding projects. I tackled real-world challenges such as building a database migration tool, optimizing machine learning pipelines, and creating Linux automation scripts. By the end of the program, I developed portfolio-ready Rust skills, preparing me for roles such as Platform Engineer, MLOps Engineer, Data Engineer, Embedded Engineer, or Backend Developer.",
         icon: React.createElement(PiCertificate),
         skills: [
             "Algorithm Design",
@@ -129,6 +147,31 @@ export const certificateData = [
             "Graphs Algorithms",
             "Integer Programming",
             "Approximation Algorithm",
+        ],
+        url: "https://coursera.org/share/b30d81e8a49314a64d106f12cfa0c12c",
+        date: "Dec, 2024",
+    },
+    {
+        title: "Foundations of Data Structures and Algorithms Specialization",
+        title2: "",
+        company: "University of Colorado Boulder",
+        location: "www.coursera.org",
+        description:
+            "I completed my certificate program in November 2024. During the program, I gained a deep understanding of how data is organized in a computer and how to efficiently perform operations such as sorting, searching, and indexing, which are essential for building fast and high-performing data science applications. This course provided a strong foundation in data structures and algorithms, focusing on their application in processing large datasets. Designed for those with basic Python programming knowledge, it equipped me with the skills to design efficient solutions for handling and analyzing large-scale data, even without prior expertise in data science.",
+        icon: React.createElement(PiCertificate),
+        skills: [
+            "Computer Programming",
+            "Rust (Programming Language)",
+            "Cargo",
+            "Information Engineering",
+            "Cloud Computing",
+            "Command-Line Interface",
+            "Polars",
+            "Devops",
+            "AWS Lambda",
+            "Natural Language Processing",
+            "AI pair programming",
+            "serverless",
         ],
         url: "https://coursera.org/share/b38b8378fcf3745ade9107489283d4ee",
         date: "Nov, 2024",
