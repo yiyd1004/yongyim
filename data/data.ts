@@ -136,7 +136,7 @@ export const certificateData = [
         company: "Duke University",
         location: "www.coursera.org",
         description:
-            "I completed my certificate program in December 2024. During the program, I gained applied skills in Rust programming, with a focus on its speed, safety, and versatility for robust systems programming. I mastered Rust’s foundational syntax through to advanced machine learning integrations, completing hands-on lessons and over 20 coding projects. I tackled real-world challenges such as building a database migration tool, optimizing machine learning pipelines, and creating Linux automation scripts. By the end of the program, I developed portfolio-ready Rust skills, preparing me for roles such as Platform Engineer, MLOps Engineer, Data Engineer, Embedded Engineer, or Backend Developer.",
+            "I completed my certificate program in December 2024. During the program, I gained applied skills in Rust programming, with a focus on its speed, safety, and versatility for robust systems programming. I mastered Rust's foundational syntax through to advanced machine learning integrations, completing hands-on lessons and over 20 coding projects. I tackled real-world challenges such as building a database migration tool, optimizing machine learning pipelines, and creating Linux automation scripts. By the end of the program, I developed portfolio-ready Rust skills, preparing me for roles such as Platform Engineer, MLOps Engineer, Data Engineer, Embedded Engineer, or Backend Developer.",
         icon: React.createElement(PiCertificate),
         skills: [
             "Algorithm Design",
