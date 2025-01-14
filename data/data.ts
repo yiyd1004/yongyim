@@ -113,6 +113,31 @@ export const experiencesData = [
 
 export const certificateData = [
     {
+        title: "The Complete 2024 Web Development Bootcamp",
+        title2: "",
+        company: "Udemy",
+        location: "www.udemy.com",
+        description:
+            "I completed my certificate program in January 2025. During the program, I gained full-stack web development skills through an immersive course taught by a leading instructor. The program covered modern tools and technologies, including HTML, CSS, JavaScript, Node.js, React, APIs, and PostgreSQL. I developed fluency in coding and built a strong foundation for creating dynamic, responsive web applications.",
+        icon: React.createElement(PiCertificate),
+        skills: [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "jQuery",
+            "Git",
+            "GitHub",
+            "Node.js",
+            "Express.js",
+            "APIs",
+            "PostgreSQL",
+            "React.js",
+            "Front-End Web Development",
+        ],
+        url: "https://ude.my/UC-2365b21b-212c-4572-9347-dc16934d2569/",
+        date: "Jan, 2025",
+    },
+    {
         title: "Amazon Junior Software Developer",
         title2: "",
         company: "Amazon",
