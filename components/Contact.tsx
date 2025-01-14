@@ -51,6 +51,8 @@ const Contact = () => {
             setEmail("");
             setMessage("");
         } else {
+            const json = await response.json();
+            console.log("error", json);
             toast.error("Unable to send message. Please try again later.");
         }
     };
