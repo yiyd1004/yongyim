@@ -25,12 +25,5 @@ export const POST = async (req: Request) => {
     });
 
     const data = await res.json();
-
-    console.log(
-        "error",
-        data,
-        `${process.env.NEXT_PUBLIC_RESEND_API_KEY}`,
-        `${process.env.RESEND_API_KEY}`
-    );
     return Response.json(data);
 };
