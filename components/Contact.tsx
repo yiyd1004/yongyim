@@ -51,7 +51,11 @@ const Contact = () => {
             setEmail("");
             setMessage("");
         } else {
-            console.log("error", response, `${process.env.RESEND_API_KEY}`);
+            console.log(
+                "error",
+                response,
+                `${process.env.NEXT_PUBLIC_RESEND_API_KEY}`
+            );
             toast.error("Unable to send message. Please try again later.");
         }
     };
