@@ -13,11 +13,11 @@ export const POST = async (req: Request) => {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
-            Authorization: `Bearer ${process.env.NEXT_PUBLIC_RESEND_API_KEY}`,
+            Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
         },
         body: JSON.stringify({
             from: "Contact Form <onboarding@resend.dev>",
-            to: [process.env.NEXT_PUBLIC_EMAIL],
+            to: [process.env.EMAIL],
             subject: "Message from portfolio contact form",
             reply_to: emailData.sender,
             html: emailData.msg,
